@@ -145,8 +145,42 @@ done
 _admin@u24:~/kernel$ sudo grub-set-default 0
 _admin@u24:~/kernel$ sudo reboot
 
+Broadcast message from root@u24 on pts/2 (Sun 2026-01-11 03:56:01 UTC):
+
+The system will reboot now!
+
 *********
 Output omitted
 *********
 
+login as: _admin
+_admin@192.168.3.134's password:
+Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.18.0-061800-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Sun Jan 11 03:58:30 AM UTC 2026
+
+  System load:  0.6                Processes:              251
+  Usage of /:   21.5% of 23.45GB   Users logged in:        0
+  Memory usage: 13%                IPv4 address for ens33: 192.168.3.134
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+55 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Sun Jan 11 03:10:39 2026 from 192.168.3.1
+_admin@u24:~$ 
+_admin@u24:~$ uname -r
+6.18.0-061800-generic
+_admin@u24:~$
 
