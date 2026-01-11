@@ -3,15 +3,6 @@ for otus homeworks
 
 root@u24:~# uname -r
 6.8.0-90-generic
-root@u24:~# exit
-logout
-root@u24:~# who
-_admin   pts/0        2026-01-11 03:10 (192.168.3.1)
-_admin   pts/1        2026-01-11 03:24 (192.168.3.1)
-root@u24:~# exit
-exit
-_admin@u24:~$ pwd
-/home/_admin
 _admin@u24:~$ ls -la
 total 32
 drwxr-x--- 4 _admin _admin 4096 Jan 11 03:23 .
